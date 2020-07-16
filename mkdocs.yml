@@ -2,12 +2,31 @@ site_name: mkdocs-demo
 site_description: 这是一个mkdocs示例
 
 nav:
-  - Home: index.md
-  - Abount: overview.md
-
-
+  - '部署文档':
+      - '概述': index.md
+      - '部署到阿里云':
+          - '云环境准备': 'overview.md'
+      - '部署前端工程':
+          - '前端工程一览': 'overview.md'
+          - '管理后台':
+              - '前端': 'overview.md'
+      - '部署服务': 'overview.md'
+      - '验证部署': 'overview.md'
+      - '监控': 'overview.md'
 
 theme: material
+  feature:
+    tabs: true
+
+extra_css:
+  - 'css/custom.css'
 
 plugins:
   - search
+
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - toc:
+      permalink: true
