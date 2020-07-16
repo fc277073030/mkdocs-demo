@@ -1,0 +1,13 @@
+site_name: mkdocs-demo
+site_description: 这是一个mkdocs示例
+
+nav:
+  - Home: index.md
+  - Abount: overview.md
+
+
+
+theme: material
+
+plugins:
+  - search
