@@ -5,11 +5,11 @@ nav:
   - '概览': 'overview.md'
 
   - '部署':
-      - '部署 jira-servicedesk': 'overview.md'
-      - '部署 jenkins': 'overview.md'
-      - '部署 ansible': 'overview.md'
-      - '部署 awx': 'overview.md'
-      - '部署 minio': 'overview.md'
+      - '部署 jira-servicedesk': 'jira_servicedesk.md'
+      - '部署 jenkins': 'jenkins.md'
+      - '部署 ansible': 'ansible.md'
+      - '部署 awx': 'ansible.md'
+      - '部署 minio': 'minio.md'
 
   - 'Demo 演示':
       - 'Mysql 演示': 'mysql.md'
