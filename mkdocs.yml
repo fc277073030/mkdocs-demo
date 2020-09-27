@@ -1,12 +1,15 @@
-site_name: mkdocs-demo
-site_description: 这是一个mkdocs示例
+site_name: 发布平台-工单系统Demo
+site_description: 发布平台-工单系统Demo
 
 nav:
   - '部署文档':
       - '概述': index.md
-      - '部署到阿里云':
-          - '云环境准备': 'overview.md'
-      - '部署前端工程':
+      - '部署':
+          - 'install jira-servicedesk': 'install.md'
+          - 'install ansible-awx': 'install.md'
+          - 'install jenkins': 'install.md'
+          - 'install minio': 'install.md'
+      - '演示Demo':
           - '前端工程一览': 'overview.md'
           - '管理后台':
               - '前端': 'overview.md'
@@ -15,8 +18,8 @@ nav:
       - '监控': 'overview.md'
 
 theme: material
-  feature:
-    tabs: true
+#  feature:
+#    tabs: true
 
 extra_css:
   - 'css/custom.css'
