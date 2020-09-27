@@ -1,14 +1,12 @@
-#### overview
+# 概览
 
-```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: private-reg
-spec:
-  containers:
-  - name: private-reg-container
-    image: <your-private-image>
-  imagePullSecrets:   #增加此字段
-  - name: aliyun-acr-soundbus-rd-secret
-```
+## 工单系统
+工单系统是一个基于jira servicedesk, jenkins, ansible等工具组合构成的一套系统，它是为了解决开发和运维之间的沟通协作而产生的，此工单系统用于记录，处理，跟踪一项服务升级的完成情况而设计的。
+
+## 架构图
+![avatar](img/cd.jpg)
+
+## 特征
+* 基于jira, 可记录，跟踪问题，扩展性强
+* 集成jenkins, 可持续集成，插件丰富
+* 集成ansible，实现了批量系统配置、批量程序部署、批量运行命令等功能。

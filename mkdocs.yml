@@ -1,22 +1,24 @@
-site_name: mkdocs-demo
-site_description: 这是一个mkdocs示例
+site_name: '发布平台-工单系统'
+site_description: '这是一个工单系统的Demo'
 
 nav:
-  - '部署文档':
-      - '概述': index.md
-      - '部署到阿里云':
-          - '云环境准备': 'overview.md'
-      - '部署前端工程':
-          - '前端工程一览': 'overview.md'
-          - '管理后台':
-              - '前端': 'overview.md'
-      - '部署服务': 'overview.md'
-      - '验证部署': 'overview.md'
-      - '监控': 'overview.md'
+  - '概览': 'overview.md'
+
+  - '部署':
+      - '部署 jira-servicedesk': 'overview.md'
+      - '部署 jenkins': 'overview.md'
+      - '部署 ansible': 'overview.md'
+      - '部署 awx': 'overview.md'
+      - '部署 minio': 'overview.md'
+
+  - 'Demo 演示':
+      - 'Mysql 演示': 'mysql.md'
+      - 'Zabbix 演示': 'zabbix.md'
+
 
 theme: material
-  feature:
-    tabs: true
+#  feature:
+#    tabs: true
 
 extra_css:
   - 'css/custom.css'
