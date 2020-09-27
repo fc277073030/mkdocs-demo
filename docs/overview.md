@@ -7,6 +7,6 @@
 ![avatar](img/cd.jpg)
 
 ## 特征
-* 基于jira, 可记录，跟踪问题，扩展性强
-* 集成jenkins, 可持续集成，插件丰富
+* 基于jira, 可记录，跟踪问题，扩展性强。
+* jenkins 和 jira 集成，并且 jenkins 的插件丰富。
 * 集成ansible，实现了批量系统配置、批量程序部署、批量运行命令等功能。
