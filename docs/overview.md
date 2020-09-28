@@ -1,7 +1,7 @@
 # 概览
 
 ## 工单系统
-工单系统是一个基于jira servicedesk, jenkins, ansible等工具构成的一套系统，它是为了解决开发和运维之间的沟通写作，为了记录，处理，跟踪一项服务升级的完成情况而设计的。
+工单系统是一个基于jira servicedesk, jenkins, ansible等工具构成的一套系统，为了记录，处理，跟踪一项服务升级的完成情况而设计的。
 
 ## 架构图
 ![avatar](img/cd.jpg)
