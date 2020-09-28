@@ -2,7 +2,7 @@ site_name: '发布平台-工单系统'
 site_description: '这是一个工单系统的Demo'
 
 nav:
-  - '概览': 'index.md'
+  - '概览': 'overview.md'
 
   - '部署':
       - '部署 jira-servicedesk': 'jira_servicedesk.md'
